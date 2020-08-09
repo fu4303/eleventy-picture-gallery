@@ -3,7 +3,7 @@ const Cache = require("@11ty/eleventy-cache-assets");
 module.exports = async () => {
   try {
     const res = await Cache(
-      "https://jsonplaceholder.typicode.com/photos?_start=1&_limit=270",
+      "https://picsum.photos/v2/list?page=2&limit=100",
       {
         duration: "1d",
         type: "json",
@@ -12,10 +12,9 @@ module.exports = async () => {
     const images = res.map((image) => {
       return {
         id: image.id,
-        title: image.title,
-        alt: image.title,
-        url: image.url,
-        thumbnail: image.thumbnailUrl,
+        author: image.author,
+        src: image.url,
+        url: `https://picsum.photos/id/${image.id}/300`
       };
     });
     return images;
