@@ -4,11 +4,11 @@
 
 # eleventy-picture-gallery
 
-**eleventy-picture-gallery** is a website built with [Eleventy](https://www.11ty.dev/). It fetches images from a JSON API at build time and displays them as a static site.
+**eleventy-picture-gallery** is a website built with [Eleventy](https://www.11ty.dev/). It fetches images from a JSON API ([Lorem Picsum](https://picsum.photos/)) at build time and displays them as a static site.
 
 ## Installation
 
-You'll need Node.js
+You'll need Node.js **10+**.
 
 ```bash
 npx degit sophiabrandt/eleventy-picture-gallery eleventy-picture-gallery
@@ -33,6 +33,7 @@ Distributed under the [MIT License](https://choosealicense.com/licenses/mit/).
 ## Acknowledgments
 
 - [Andy Bell](https://github.com/hankchizljaw) for his [Eleventy From Scratch course](https://piccalil.li/course/learn-eleventy-from-scratch)
+- Andy Bell & [Heydon Pickering](https://twitter.com/heydonworks) for [Every Layout](https://every-layout.dev/)
 
 [contributors-shield]: https://img.shields.io/github/contributors/sophiabrandt/eleventy-picture-gallery.svg?style=flat-square
 [contributors-url]: https://github.com/sophiabrandt/eleventy-picture-gallery/graphs/contributors
