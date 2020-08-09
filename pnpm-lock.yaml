@@ -1,11 +1,27 @@
 dependencies:
   '@11ty/eleventy': 0.11.0
+  '@11ty/eleventy-cache-assets': 2.0.3_@11ty+eleventy@0.11.0
 lockfileVersion: 5.1
 packages:
   /@11ty/dependency-tree/1.0.0:
     dev: false
     resolution:
       integrity: sha512-2FWYlkphQ/83MG7b9qqBJfJJ0K9zupNz/6n4EdDuNLw6hQHGp4Sp4UMDRyBvA/xCTYDBaPSuSjHuu45tSujegg==
+  /@11ty/eleventy-cache-assets/2.0.3_@11ty+eleventy@0.11.0:
+    dependencies:
+      '@11ty/eleventy': 0.11.0
+      debug: 4.1.1
+      flat-cache: 2.0.1
+      node-fetch: 2.6.0
+      p-queue: 6.6.0
+      short-hash: 1.0.0
+    dev: false
+    engines:
+      node: '>=10'
+    peerDependencies:
+      '@11ty/eleventy': '>=0.10.0'
+    resolution:
+      integrity: sha512-o4Zr4lAdS2rDndvkXpM2vXV9XU5GRDiMoDemEuuFCa4Cjb5vJ+fcL84KUoHVgVS5e+FF+OdY3F3mhV7qJgzaIA==
   /@11ty/eleventy/0.11.0:
     dependencies:
       '@11ty/dependency-tree': 1.0.0
@@ -940,6 +956,20 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==
+  /flat-cache/2.0.1:
+    dependencies:
+      flatted: 2.0.2
+      rimraf: 2.6.3
+      write: 1.0.3
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-LoQe6yDuUMDzQAEH8sgmh4Md6oZnc/7PjtwjNFSzveXqSHt6ka9fPBuso7IGf9Rz4uqnSnWiFH2B/zj24a5ReA==
+  /flatted/2.0.2:
+    dev: false
+    resolution:
+      integrity: sha512-r5wGx7YeOwNWNlCA0wQ86zKyDLMQr+/RB8xy74M4hTphfmjlijTSSXGuH8rnvKZnfT9i+75zmd8jcKdMR4O6jA==
   /follow-redirects/1.12.1:
     dev: false
     engines:
@@ -1098,6 +1128,10 @@ packages:
       node: '>= 0.4'
     resolution:
       integrity: sha512-PLcsoqu++dmEIZB+6totNFKq/7Do+Z0u4oT0zKOJNl3lYK6vGwwu2hjHs+68OEZbTjiUE9bgOABXbP/GvrS0Kg==
+  /hash-string/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-w/oV8Hjd0WvBULQXb95wkWIPLH8=
   /http-errors/1.6.3:
     dependencies:
       depd: 1.1.2
@@ -1595,6 +1629,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
+  /node-fetch/2.6.0:
+    dev: false
+    engines:
+      node: 4.x || >=6.0.0
+    resolution:
+      integrity: sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
   /nopt/4.0.3:
     dependencies:
       abbrev: 1.1.1
@@ -1683,6 +1723,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-0CWcCECdMVc2Rw3U5w9ZjqX6ga6ubk1xDVKxtBQPK7wis/0F2r9T6k4ydGYhecl7YUBxBVxhL5oisPsNxAPe2g==
+  /p-finally/1.0.0:
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4=
   /p-limit/2.3.0:
     dependencies:
       p-try: 2.2.0
@@ -1707,6 +1753,23 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-R79ZZ/0wAxKGu3oYMlz8jy/kbhsNrS7SKZ7PxEHBgJ5+F2mtFW2fK2cOtBh1cHYkQsbzFV7I+EoRKe6Yt0oK7A==
+  /p-queue/6.6.0:
+    dependencies:
+      eventemitter3: 4.0.4
+      p-timeout: 3.2.0
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-zPHXPNy9jZsiym0PpJjvnHQysx1fSd/QdaNVwiDRLU2KFChD6h9CkCB6b8i3U8lBwJyA+mHgNZCzcy77glUssQ==
+  /p-timeout/3.2.0:
+    dependencies:
+      p-finally: 1.0.0
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-rhIwUycgwwKcP9yTOOFK/AKsAopjjCakVqLHePO3CC6Mir1Z99xT+R63jZxAT5lFZLa2inS5h+ZS2GvR99/FBg==
   /p-try/2.2.0:
     dev: false
     engines:
@@ -2059,6 +2122,13 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-YTObci/mo1FWiSENJOFMlhSGE+8=
+  /rimraf/2.6.3:
+    dependencies:
+      glob: 7.1.6
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==
   /rimraf/2.7.1:
     dependencies:
       glob: 7.1.6
@@ -2176,6 +2246,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
+  /short-hash/1.0.0:
+    dependencies:
+      hash-string: 1.0.0
+    dev: false
+    resolution:
+      integrity: sha1-P0kdco/Md37GBbuvf4PyNxL0IFA=
   /sigmund/1.0.1:
     dev: false
     resolution:
@@ -2554,6 +2630,14 @@ packages:
     dev: false
     resolution:
       integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
+  /write/1.0.3:
+    dependencies:
+      mkdirp: 0.5.5
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-/lg70HAjtkUgWPVZhZcm+T4hkL8Zbtp1nFNOn3lRrxnlv50SRBv7cR7RqR+GMsd3hUXy9hWBo4CHTbFTcOYwig==
   /ws/3.3.3:
     dependencies:
       async-limiter: 1.0.1
@@ -2646,3 +2730,4 @@ packages:
       integrity: sha1-AI4G2AlDIMNy28L47XagymyKxBk=
 specifiers:
   '@11ty/eleventy': ^0.11.0
+  '@11ty/eleventy-cache-assets': ^2.0.3

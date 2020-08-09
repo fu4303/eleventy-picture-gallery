@@ -1,0 +1,7 @@
+{% if images. length %}
+{% for image in images %}
+    <div class="frame">
+        <img src="{{image.url}}" alt="{{image.alt}}" />
+    </div>
+{% endfor %}
+{% endif %}
