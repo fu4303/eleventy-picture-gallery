@@ -22,12 +22,6 @@ Run the development server:
 npm run start
 ```
 
-Create a production build:
-
-```bash
-npm run build
-```
-
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -35,6 +29,10 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 
 Distributed under the [MIT License](https://choosealicense.com/licenses/mit/).
+
+## Acknowledgments
+
+- [Andy Bell](https://github.com/hankchizljaw) for his [Eleventy From Scratch course](https://piccalil.li/course/learn-eleventy-from-scratch)
 
 [contributors-shield]: https://img.shields.io/github/contributors/sophiabrandt/eleventy-picture-gallery.svg?style=flat-square
 [contributors-url]: https://github.com/sophiabrandt/eleventy-picture-gallery/graphs/contributors
