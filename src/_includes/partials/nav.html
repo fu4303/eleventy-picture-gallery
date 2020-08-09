@@ -1,16 +1,9 @@
 <header role="banner" class="box">
-    <nav aria-label="Primary" class="cluster">
-      <div>
-        <div class="cluster cluster__inner">
-          <ul>
-            {% for link in navigation.links %}
-            <li>
-              <a class="btn" href="{{ link.url}}">{{ link.text }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
+  <nav aria-label="Primary" class="reel" noBar>
+    {% for link in navigation.links %}
+    <div role="listitem">
+      <a class="btn" href="{{ link.url}}">{{ link.text }}</a>
+    </div>
+    {% endfor %}
+  </nav>
 </header>
