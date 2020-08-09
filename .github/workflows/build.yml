@@ -1,9 +1,9 @@
-name: Build README
+name: Build Eleventy
 
 on:
   push:
     branches:
-      -Main
+      - main
 
 jobs:
   build:
