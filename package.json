@@ -1,0 +1,23 @@
+{
+  "name": "eleventy-picture-gallery",
+  "version": "1.0.0",
+  "description": "Picture Gallery built with Eleventy",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophiabrandt/eleventy-picture-gallery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sophiabrandt/eleventy-picture-gallery/issues"
+  },
+  "homepage": "https://github.com/sophiabrandt/eleventy-picture-gallery#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
