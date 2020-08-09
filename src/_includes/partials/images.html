@@ -1,7 +1,8 @@
 {% if images. length %}
+{{ images | log }}
 {% for image in images %}
     <div class="frame">
-        <a href="{{image.url}}"><img src="{{image.url}}" alt="{{image.alt}}" /></a>
+        <a href="{{image.src}}"><img src="{{image.url}}" alt="{{image.alt}}" /></a>
     </div>
 {% endfor %}
 {% endif %}
