@@ -1,10 +1,12 @@
 {
   "name": "eleventy-picture-gallery",
   "version": "1.0.0",
+  "homepage": "/eleventy-picture-gallery",
   "description": "Picture Gallery built with Eleventy",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npx eleventy --serve"
+    "start": "npx eleventy --serve",
+    "build": "npx eleventy"
   },
   "repository": {
     "type": "git",
