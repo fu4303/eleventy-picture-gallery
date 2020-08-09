@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="../../favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="../../favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="../../favicon-32x32.png" sizes="32x32">
+    <link rel="apple-touch-icon-precomposed" href="../../apple-touch-icon.png">
     <link
       rel="stylesheet"
       href="https://unpkg.com/modern-css-reset/dist/reset.min.css"
@@ -13,6 +17,9 @@
     <title>{{ title }}</title>
   </head>
   <body>
+  {% include "partials/nav.html" %}
+  <main tabindex="-1" id="main-content">
     {% block content %}{% endblock %}
+  </main>
   </body>
 </html>

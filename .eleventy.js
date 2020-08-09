@@ -1,5 +1,7 @@
 module.exports = (config) => {
+  // css and favicon
   config.addPassthroughCopy('./src/css')
+  config.addPassthroughCopy('./src/favicon')
 
   return {
     markdownTemplateEngine: 'njk',
