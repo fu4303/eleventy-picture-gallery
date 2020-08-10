@@ -1,6 +1,7 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
+[![workflow status][workflow-shield]][workflow-url]
 
 # eleventy-picture-gallery
 
@@ -45,4 +46,6 @@ Distributed under the [MIT License](https://choosealicense.com/licenses/mit/).
 [issues-shield]: https://img.shields.io/github/issues/sophiabrandt/eleventy-picture-gallery.svg?style=flat-square
 [issues-url]: https://github.com/sophiabrandt/eleventy-picture-gallery/issues
 [license-shield]: https://img.shields.io/github/license/sophiabrandt/eleventy-picture-gallery.svg?style=flat-square
-[license-url]: https://github.com/sophiabrandt/eleventy-picture-gallery/blob/master/LICENSE.txt
+[license-url]: https://github.com/sophiabrandt/eleventy-picture-gallery/blob/master/LICENSE
+[workflow-shield]: https://img.shields.io/github/workflow/status/sophiabrandt/eleventy-picture-gallery/Build%20Eleventy?style=flat-square&logo=Github-Actions
+[workflow-url]: https://github.com/sophiabrandt/eleventy-picture-gallery/commits/master
