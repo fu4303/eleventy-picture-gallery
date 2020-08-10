@@ -1,0 +1,8 @@
+{%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(meta.url) }}{%- endset -%}
+
+<link rel="canonical" href="{{ absolutePageUrl }}">
+<link rel="icon" type="image/x-icon" href="{{ '/assets/favicon/favicon.ico' | url }}" />
+<link rel="icon" type="image/png" href="{{ '/assets/favicon-16x16.png' | url }}" sizes="16x16" />
+<link rel="icon" type="image/png" href="{{ '/assets/favicon-32x32.png' | url }}" sizes="32x32" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="{{ '/assets/favicon/apple-touch-icon.png' | url }}"/>
+<link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css | url }}"/>

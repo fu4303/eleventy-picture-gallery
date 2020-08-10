@@ -34,6 +34,7 @@ Distributed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
 - [Andy Bell](https://github.com/hankchizljaw) for his [Eleventy From Scratch course](https://piccalil.li/course/learn-eleventy-from-scratch)
 - Andy Bell & [Heydon Pickering](https://twitter.com/heydonworks) for [Every Layout](https://every-layout.dev/)
+- [Max Boeck](https://github.com/maxboeck) for the [eleventastic template](https://github.com/maxboeck/eleventastic) (to figure out how to create an absolute URL for the meta data)
 
 [contributors-shield]: https://img.shields.io/github/contributors/sophiabrandt/eleventy-picture-gallery.svg?style=flat-square
 [contributors-url]: https://github.com/sophiabrandt/eleventy-picture-gallery/graphs/contributors

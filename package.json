@@ -6,7 +6,7 @@
   "main": ".eleventy.js",
   "scripts": {
     "start": "npx eleventy --serve",
-    "build": "npx eleventy"
+    "build": "env NODE_ENV=production npx eleventy"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,10 @@
   "bugs": {
     "url": "https://github.com/sophiabrandt/eleventy-picture-gallery/issues"
   },
-  "homepage": "https://github.com/sophiabrandt/eleventy-picture-gallery#readme",
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",
-    "@11ty/eleventy-cache-assets": "^2.0.3"
+    "@11ty/eleventy-cache-assets": "^2.0.3",
+    "@11ty/eleventy-plugin-rss": "^1.0.9",
+    "html-minifier": "^4.0.0"
   }
 }

@@ -1,0 +1,13 @@
+{%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(meta.url) }}{%- endset -%}
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+<link rel="canonical" href="{{ absolutePageUrl }}">
+<link rel="icon" type="image/x-icon" href="{{ '/assets/favicon/favicon.ico' | url }}" />
+<link rel="icon" type="image/png" href="{{ '/assets/favicon/favicon16.png' | url }}" sizes="16x16" />
+<link rel="icon" type="image/png" href="{{ '/assets/favicon/favicon32.png' | url }}" sizes="32x32" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="{{ '/assets/favicon/apple-touch-icon.png' | url }}"/>
+<link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | url }}"/>
+<title>{{ meta.title }}</title>
