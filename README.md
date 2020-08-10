@@ -6,6 +6,8 @@
 
 **eleventy-picture-gallery** is a website built with [Eleventy](https://www.11ty.dev/). It fetches images from a JSON API ([Lorem Picsum](https://picsum.photos/)) at build time and displays them as a static site.
 
+**Demo**: [https://sophiabrandt.github.io/eleventy-picture-gallery/](https://sophiabrandt.github.io/eleventy-picture-gallery/)
+
 ## Installation
 
 You'll need Node.js **10+**.
