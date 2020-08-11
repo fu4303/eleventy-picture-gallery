@@ -5,7 +5,7 @@
 
 # eleventy-picture-gallery
 
-**eleventy-picture-gallery** is a website built with [Eleventy](https://www.11ty.dev/). It fetches images from a JSON API ([Lorem Picsum](https://picsum.photos/)) at build time and displays them as a static site.
+**eleventy-picture-gallery** is a website built with [Eleventy](https://www.11ty.dev/). Eleventy fetches images from a JSON API ([Lorem Picsum](https://picsum.photos/)) at build time and displays them as a static site.
 
 **Demo**: [https://sophiabrandt.github.io/eleventy-picture-gallery/](https://sophiabrandt.github.io/eleventy-picture-gallery/)
 
