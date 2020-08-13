@@ -1,7 +1,7 @@
-{% if images. length %}
-    {% for image in images %}
+{% if images.length %}
+    {% for i in range(0, images.length) %}
         <div class="frame">
-            <a href="{{image.src}}"><img src="{{image.url}}" alt="{{image.alt}}" /></a>
+            <a href="{{images[i].src}}"><img loading="{{"lazing" if i > 11 else "eager"}}" src="{{images[i].url}}" alt="{{images[i].alt}}" width="300" height="300" /></a>
         </div>
     {% endfor %}
 {% endif %}
